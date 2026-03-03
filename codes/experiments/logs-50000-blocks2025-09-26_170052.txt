@@ -1,0 +1,2 @@
+--------------------------------------------------------
+%, #batches, #blks, #pgs/blk, baseline, baseline wearout, wla, wla wearout, improvement, % wearout
