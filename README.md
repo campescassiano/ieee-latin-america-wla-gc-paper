@@ -4,6 +4,16 @@ Here are all the code resoures and experiments performed while writting the
 research paper:
 "Word-Line-Aware Garbage Collector for QLC-based NAND Flash Memories"
 
+Authors:
+- Cassiano Silva de Campes (cassiano.campes@csl.skku.edu, scampes@edu.unisinos.br)
+- Rodrigo Marques de Figueiredo (marquesf@unisinos.br)
+- Sandro José Rigo (rigo@unisinos.br)
+
+This research paper was accepted to be published on:
+- Journal IEEE Latin America Transactions
+
+Submission-ID: 10214
+
 It is organized as follows:
 
 - codes/experiments: contains the executed experiments with different block sizes.
