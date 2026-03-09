@@ -19,7 +19,10 @@ N_COLS = 4  # represent the WL width (in pages)
 
 def calc_latency(N_valid):
     count_valid = np.sum(N_valid)
-    return np.sum(np.matmul(t_read, N_valid)) + t_program * count_valid + t_erase
+    read_latency = np.sum(np.matmul(t_read, N_valid));
+    write_latency = np.sum(np.matmul(t_write, N_valid));
+
+    return read_latency + write_latency + t_program * count_valid + t_erase
 
 def fill_matrix(row_order):
     """
